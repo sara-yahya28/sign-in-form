@@ -1,0 +1,117 @@
+/* Global styles - apply to all screen sizes */
+body {
+  background-image: url("./resources/background@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.be-vietnam-pro-regular { font-family: "Be Vietnam Pro", sans-serif; font-weight: 400; font-style: normal; }
+.be-vietnam-pro-medium { font-weight: 500; }
+.be-vietnam-pro-semibold { font-weight: 600; }
+.be-vietnam-pro-bold { font-weight: 700; }
+.be-vietnam-pro-extrabold { font-weight: 800; }
+.be-vietnam-pro-black { font-weight: 900; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+.title {
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.subTitle {
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form {
+  background-color: #FFFFFF33;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.field label {
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.subForm {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+#name, #email, #message, #company-size, #subject, #button {
+  padding: 18px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  width: 320px;
+}
+#company-size, #subject { width: 355px; }
+
+
+#button {
+  margin-top: 10px;
+  background-color: white;
+  color: #4036A9;
+  cursor: pointer;
+  width: 700px;
+  align-self: center;
+  font-weight: 700;
+}
+
+#message {
+  width: 680px;
+  align-self: center;
+}
+
+#label { margin-left: 10px; }
+
+/* 640px (Tablet/Mobile) */
+@media (max-width: 640px) {
+  .container { margin: 50px 20px; }
+  .title { font-size: 36px; }
+  .subTitle { font-size: 16px; margin-bottom: 30px; }
+  #name, #email, #message, #company-size, #subject, #button { width: 100%; }
+  .subForm { flex-direction: column; }
+}
+
+/* 1024px (Laptop) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .container { margin: 80px; }
+  #company-size, #subject { width: 340px; }
+}
+.logo{
+    margin: 15px 0 0 50px;
+}
