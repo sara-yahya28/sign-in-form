@@ -26,14 +26,14 @@ body {
 .title {
   color: white;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 50px;
+  font-size: 4rem;
   font-weight: 600;
 }
 
 .subTitle {
   color: white;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   margin-top: 5px;
   text-align: center;
   margin-bottom: 50px;
@@ -57,7 +57,7 @@ body {
 .field label {
   color: white;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 10px;
+  font-size: 0.875rem;
   margin-bottom: 5px;
 }
 
@@ -69,16 +69,17 @@ body {
 }
 
 #name, #email, #message, #company-size, #subject, #button {
-  padding: 18px;
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 10px;
   border: none;
   color: black;
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: 14px;
   font-weight: 600;
   width: 320px;
+  
 }
-#company-size, #subject { width: 355px; }
+#company-size, #subject { width: 360px; }
 
 
 #button {
@@ -86,13 +87,14 @@ body {
   background-color: white;
   color: #4036A9;
   cursor: pointer;
-  width: 700px;
+  width: 730px;
   align-self: center;
   font-weight: 700;
+  font-size: 1.27rem;
 }
 
 #message {
-  width: 680px;
+  width: 690px;
   align-self: center;
 }
 
